@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<title>Manipulation de vue</title>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+
+<div id="monapp">
+	<button @click="change">{{titre}}</button>
+	<br><br>
+	<div style="display: flex; height: 25px; align-items: center; gap: 9px;">
+		<button @click="plus">+ +</button> <p>{{count}}</p> <button @click="moins">- -</button>
+	</div>
+	<div>
+		<ul>
+			<li>Couleur de la police:
+				<ul>
+					<li><input type="radio" v-model="color" value="red">Rouge</li>
+					<li><input type="radio" v-model="color" value="blue">Bleu</li>
+				</ul>
+			</li>
+			<li>
+				Afficher/cacher le paragraphe? <input type="checkbox"  v-model="show">
+			</li>
+		</ul>
+		<p v-if="show" :style="{color:color}">
+			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis ex quaerat tenetur inventore repellendus repellat incidunt optio voluptatum quas vel nemo tempore, velit ea fuga magni nesciunt. Beatae, asperiores deleniti.
+		</p>
+	</div> 
+	
+	
+</div>
+
+
+<script>
+	const appli = {
+		data () {
+				return {
+					titre: "Cliquez moi!",
+					count: 0,
+					show: true,
+					color: 'black'
+					
+				};
+		},
+		methods :{
+			change(){
+				this.titre = "Cliqué!";
+			},
+			moins(){
+				this.count -=1;
+			},
+			plus(){
+				this.count += 1;
+			}
+		}
+		
+	};
+
+	
+	
+	Vue.createApp(appli).mount("#monapp");
+</script>
+
+</body>
+</html>

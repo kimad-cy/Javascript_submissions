@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<title>Manipulation de vue</title>
+<script src="https://unpkg.com/vue@3.0.0"></script>
+</head>
+<body>
+
+<div id="monapp">
+	<label>Ecrivez une chaine de caracteres sans espaces:</label>
+	<input type="text" v-model="inputText" @input="checkInput">
+	<p v-if="showError" :style="{ display: 'block', color: 'red' }">La chaine doit etre sans espaces!!!</p>
+</div>
+
+<script>
+	const appli = {
+		data () {
+			return {
+				inputText: "",   // On utilise inputText pour lier le champ de texte
+				showError: false  // Variable pour contrôler l'affichage du message d'erreur
+			};
+		},
+		methods: {
+			checkInput() {
+				// Vérifier si la chaîne contient un espace
+				if (this.inputText.includes(" ")) {
+					this.showError = true; // Afficher le message d'erreur
+				} else {
+					this.showError = false; // Cacher le message d'erreur
+				}
+    		}
+		}
+	};
+	
+	Vue.createApp(appli).mount("#monapp");
+</script>
+
+</body>
+</html>
