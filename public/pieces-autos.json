@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "nom": "Batterie 12V",
+        "prix": 120,
+        "categorie": "Électricité",
+        "dispo": true,
+        "image": "batterie12V.jpeg"
+    },
+    {
+        "id": 2,
+        "nom": "Filtre à huile",
+        "prix": 15,
+        "categorie": "Filtration",
+        "dispo": true,
+        "image": "Filtre à huile.jpeg"
+    },
+    {
+        "id": 3,
+        "nom": "Bougies d'allumage (x4)",
+        "prix": 35,
+        "categorie": "Moteur",
+        "dispo": true,
+        "image": "Bougies d'allumage.jpeg"
+    },
+    {
+        "id": 4,
+        "nom": "Disques de frein (x2)",
+        "prix": 80,
+        "categorie": "Freinage",
+        "dispo": true,
+        "image": "Disques de frein.jpeg"
+    },
+    {
+        "id": 5,
+        "nom": "Courroie de distribution",
+        "prix": 90,
+        "categorie": "Moteur",
+        "dispo": false,
+        "image": "Courroie de distribution.jpeg"
+    },
+    {
+        "id": 6,
+        "nom": "Pompe à eau",
+        "prix": 70,
+        "categorie": "Refroidissement",
+        "dispo": true,
+        "image": "Pompe à eau.jpeg"
+    },
+    {
+        "id": 7,
+        "nom": "Amortisseurs arrière (x2)",
+        "prix": 150,
+        "categorie": "Suspension",
+        "dispo": true,
+        "image": "Amortisseurs arrière.jpeg"
+    },
+    {
+        "id": 8,
+        "nom": "Filtre à air",
+        "prix": 20,
+        "categorie": "Filtration",
+        "dispo": false,
+        "image": "Filtre à air.jpeg"
+    },
+    {
+        "id": 9,
+        "nom": "Capteur ABS",
+        "prix": 50,
+        "categorie": "Sécurité",
+        "dispo": true,
+        "image": "Capteur ABS.jpeg"
+    },
+    {
+        "id": 10,
+        "nom": "Radiateur de refroidissement",
+        "prix": 130,
+        "categorie": "Refroidissement",
+        "dispo": false,
+        "image": "Radiateur de refroidissement.jpeg"
+    },
+    {
+        "id": 11,
+        "nom": "Alternateur",
+        "prix": 200,
+        "categorie": "Électricité",
+        "dispo": true,
+        "image": "Alternateur.jpeg"
+    },
+    {
+        "id": 12,
+        "nom": "Démarreur",
+        "prix": 180,
+        "categorie": "Électricité",
+        "dispo": false,
+        "image": "Démarreur.jpeg"
+    },
+    {
+        "id": 13,
+        "nom": "Kit d’embrayage",
+        "prix": 220,
+        "categorie": "Transmission",
+        "dispo": true,
+        "image": "Kit d’embrayage.jpeg"
+    },
+    {
+        "id": 14,
+        "nom": "Injecteur de carburant",
+        "prix": 110,
+        "categorie": "Moteur",
+        "dispo": false,
+        "image": "Injecteur de carburant.jpeg"
+    },
+    {
+        "id": 15,
+        "nom": "Pompe à carburant",
+        "prix": 90,
+        "categorie": "Carburant",
+        "dispo": true,
+        "image": "Pompe à carburant.jpeg"
+    },
+    {
+        "id": 16,
+        "nom": "Capteur de pression des pneus (TPMS)",
+        "prix": 45,
+        "categorie": "Sécurité",
+        "dispo": false,
+        "image": "Capteur de pression des pneus.jpeg"
+    },
+    {
+        "id": 17,
+        "nom": "Rétroviseur extérieur",
+        "prix": 60,
+        "categorie": "Carrosserie",
+        "dispo": false,
+        "image": "Rétroviseur extérieur.jpeg"
+    },
+    {
+        "id": 18,
+        "nom": "Échappement complet",
+        "prix": 250,
+        "categorie": "Échappement",
+        "dispo": true,
+        "image": "Échappement complet.jpeg"
+    },
+    {
+        "id": 19,
+        "nom": "Vanne EGR",
+        "prix": 140,
+        "categorie": "Moteur",
+        "dispo": false,
+        "image": "Vanne EGR.jpeg"
+    },
+    {
+        "id": 20,
+        "nom": "Turbo",
+        "prix": 400,
+        "categorie": "Moteur",
+        "dispo": false,
+        "image": "Turbo.jpeg"
+    },
+    {
+        "id": 21,
+        "nom": "Joint de culasse",
+        "prix": 75,
+        "categorie": "Moteur",
+        "dispo": true,
+        "image": "Joint de culasse.jpeg"
+    },
+    {
+        "id": 22,
+        "nom": "Boîtier de direction",
+        "prix": 300,
+        "categorie": "Direction",
+        "dispo": true,
+        "image": "Boîtier de direction.jpeg"
+    },
+    {
+        "id": 23,
+        "nom": "Silent bloc de suspension",
+        "prix": 35,
+        "categorie": "Suspension",
+        "dispo": false,
+        "image": "Silent bloc de suspension.jpeg"
+    },
+    {
+        "id": 24,
+        "nom": "Cardan de transmission",
+        "prix": 160,
+        "categorie": "Transmission",
+        "dispo": true,
+        "image": "Cardan de transmission.jpeg"
+    },
+    {
+        "id": 25,
+        "nom": "Capteur de position vilebrequin",
+        "prix": 50,
+        "categorie": "Moteur",
+        "dispo": false,
+        "image": "Capteur de position vilebrequin.jpeg"
+    }
+]
