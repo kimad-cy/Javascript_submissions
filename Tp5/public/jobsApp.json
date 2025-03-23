@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "titre": "Développeur Web",
+      "description": "Développement et maintenance d'applications web.",
+      "salaire": "3500€ / mois",
+      "date_creation": "2025-03-17",
+      "localisation": "Paris, France",
+      "type_contrat": "CDI"
+    },
+    {
+      "id": 2,
+      "titre": "Ingénieur Data",
+      "description": "Analyse et traitement des données pour optimiser les performances.",
+      "salaire": "4200€ / mois",
+      "date_creation": "2025-03-16",
+      "localisation": "Lyon, France",
+      "type_contrat": "CDI"
+    },
+    {
+      "id": 3,
+      "titre": "Administrateur Systèmes",
+      "description": "Gestion des serveurs et de l'infrastructure IT.",
+      "salaire": "3800€ / mois",
+      "date_creation": "2025-03-15",
+      "localisation": "Marseille, France",
+      "type_contrat": "CDI"
+    },
+    {
+      "id": 4,
+      "titre": "Designer UX/UI",
+      "description": "Création d'interfaces ergonomiques et attrayantes.",
+      "salaire": "3200€ / mois",
+      "date_creation": "2025-03-14",
+      "localisation": "Toulouse, France",
+      "type_contrat": "CDD"
+    },
+    {
+      "id": 5,
+      "titre": "Chef de Projet IT",
+      "description": "Coordination des équipes techniques et suivi des projets informatiques.",
+      "salaire": "5000€ / mois",
+      "date_creation": "2025-03-13",
+      "localisation": "Bruxelles, Belgique",
+      "type_contrat": "CDI"
+    },
+    {
+      "id": 6,
+      "titre": "Technicien Réseau",
+      "description": "Installation et maintenance des infrastructures réseau.",
+      "salaire": "2800€ / mois",
+      "date_creation": "2025-03-12",
+      "localisation": "Bordeaux, France",
+      "type_contrat": "CDD"
+    },
+    {
+      "id": 7,
+      "titre": "Consultant Cybersécurité",
+      "description": "Audit et mise en place de solutions de sécurité informatique.",
+      "salaire": "4700€ / mois",
+      "date_creation": "2025-03-11",
+      "localisation": "Genève, Suisse",
+      "type_contrat": "CDI"
+    },
+    {
+      "id": 8,
+      "titre": "Développeur Mobile",
+      "description": "Développement d'applications iOS et Android.",
+      "salaire": "3600€ / mois",
+      "date_creation": "2025-03-10",
+      "localisation": "Madrid, Espagne",
+      "type_contrat": "CDI"
+    },
+    {
+      "id": 9,
+      "titre": "Analyste Business Intelligence",
+      "description": "Analyse et reporting des données pour la prise de décision.",
+      "salaire": "4000€ / mois",
+      "date_creation": "2025-03-09",
+      "localisation": "Berlin, Allemagne",
+      "type_contrat": "CDI"
+    },
+    {
+      "id": 10,
+      "titre": "Support Technique",
+      "description": "Assistance et dépannage pour les utilisateurs finaux.",
+      "salaire": "2500€ / mois",
+      "date_creation": "2025-03-08",
+      "localisation": "Lille, France",
+      "type_contrat": "CDD"
+    }
+  ]
+  
